@@ -35,6 +35,7 @@ google-shotgrid-sheet-send-main/
 
 - Firebase Cloud Functions for serverless backend ([Firebase Docs](https://firebase.google.com/docs/functions))
 - Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/))
+- - hotGrid Action Menu Item ([ShotGrid Developer Docs – Action Menu Items](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html))
 - Google Sheets API via `gspread` ([Google Sheets API Docs](https://developers.google.com/sheets/api))
 - Google Apps Script frontend ([Apps Script Docs](https://developers.google.com/apps-script))
 
@@ -80,22 +81,6 @@ google-shotgrid-sheet-send-main/
     - `menu.js` for the custom Sheet menu
     - `sendNotes.js`, `note_prep.js`, `util.js`, etc.
 4. Save the project and click **Deploy > Test deployments** or bind to your function endpoint.
-
----
-
-## Further Reading
-
-- **ShotGrid Action Menu Items**:
-  [ShotGrid Developer Docs – Action Menu Items](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html)
-
-- **Firebase Cloud Functions (Python)**:
-  [Firebase Functions (2nd Gen) Docs](https://firebase.google.com/docs/functions/get-started)
-
-- **Google Sheets API**:
-  [Sheets API Overview](https://developers.google.com/sheets/api/guides/concepts)
-
-- **Google Apps Script for Sheets**:
-  [Apps Script for Google Sheets](https://developers.google.com/apps-script/guides/sheets)
 
 ---
 
