@@ -1,6 +1,6 @@
 # ShotGrid ↔ Google Sheets Sync (Firebase)
 
-A lightweight integration that enables ShotGrid (SG) users—especially coordinators and production teams—to:
+A lightweight integration that enables ShotGrid (SG) users—coordinators and production teams—to:
 
 - Push shot/version data from SG to a Google Sheet
 - Collect artist feedback and notes in the sheet
@@ -52,7 +52,7 @@ google-shotgrid-sheet-send-main/
     pip install -r requirements.txt
     ```
 
-2. **Prepare a `.env` file** in the `functions/` directory to store your credentials:
+2. **Prepare a `.env` file** in the `functions/` directory to store your credentials - example in willow.json:
     ```env
     SG_API_KEY=your_shotgrid_script_key
     SG_URL=https://yourstudio.shotgrid.autodesk.com
