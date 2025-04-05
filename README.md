@@ -10,14 +10,14 @@ Built with Firebase Cloud Functions (Python), the Shotgun API, and Google Apps S
 
 ---
 
-## 📋 Breakdown
+## Breakdown
 
 ```
 google-shotgrid-sheet-send-main/
 ├── functions/                     # Firebase backend code (Python)
 │   ├── main.py                   # Main Flask handler with SG & GSheets integration
 │   ├── requirements.txt          # Python dependencies
-│   └── willow.json               # 🔥 Will contain your secrets (consider secret manager)
+│   └── willow.json               # Will contain your secrets (consider secret manager)
 ├── google_appscript/             # Google Sheets-side logic in JavaScript
 │   ├── menu.js                   # Adds UI to the Sheet
 │   ├── note_prep.js              # Prepares notes from Sheet content
@@ -31,7 +31,7 @@ google-shotgrid-sheet-send-main/
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - Firebase Cloud Functions for serverless backend ([Firebase Docs](https://firebase.google.com/docs/functions))
 - Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/))
@@ -40,7 +40,7 @@ google-shotgrid-sheet-send-main/
 
 ---
 
-## 🚀 Setup Guide
+## Setup Guide
 
 ### Backend Setup (Firebase Functions)
 
@@ -83,7 +83,7 @@ google-shotgrid-sheet-send-main/
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - **ShotGrid Action Menu Items**:
   [ShotGrid Developer Docs – Action Menu Items](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html)
@@ -99,6 +99,6 @@ google-shotgrid-sheet-send-main/
 
 ---
 
-## 🧾 License
+## License
 
 MIT License. See `LICENSE` file.
