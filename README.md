@@ -82,6 +82,8 @@ google-shotgrid-sheet-send-main/
     - `sendNotes.js`, `note_prep.js`, `util.js`, etc.
 4. Save the project and click **Deploy > Test deployments** or bind to your function endpoint.
 
+You can set up all your Google Sheets appsript functions as an extension that you can make available via the [google sheets marketplace sdk](https://developers.google.com/workspace/marketplace/overview)
+
 ---
 
 ## License
