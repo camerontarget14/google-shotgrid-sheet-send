@@ -1,14 +1,21 @@
-# google-shotgrid-sheet-send
-A sync application for grabbing information from Autodesk Shotgrid using the gspread library. 
 
-This program uses Google Appscript to create a series of controllers within the Google Sheets web app. They can be used to sync your Shotgrid and Google Sheets databases. On the backend it's a flask app on Firebase that handles http requests. 
+# baked-google-sheets-sg-sync-firebase
+ For coordinators sending shots and receiving notes
 
-## Setup:
+This is a python flask script hosted on Firebase that accepts HTTPS POST requests from Shotgrid's Action Menu Items. It links with `gspread` to create and edit google sheets.
 
-### Google Sheets App Extension
+## Environment Build
 
-### ShotGrid Action Menu Item and Script Entity
+Create virtual env and install dependencies:
+`cd functions`
+`python3.10 -m venv venv`
+`. venv/bin/activate`
+`python3.10 -m pip install -r requirements.txt`
 
+## Essential Commands
 
-## Dev Info
+Deploy to firebase:
+`firebase deploy --only functions`
 
+Check logs:
+`firebase functions:log`

@@ -1,0 +1,5 @@
+Reference file for useful note formatting:
+
+="**"&TEXT(TODAY(),"yyyy-MM-dd")&"**"&" "&"**Client Notes:** "&I$2&"**RE:"&Submission!B2&"**"&I$2&"**"&Submission!C2&"**"&I$2&E2
+
+=Submission!C2&", "&A2
