@@ -34,7 +34,7 @@ google-shotgrid-sheet-send-main/
 ## 🔧 Technologies Used
 
 - Firebase Cloud Functions for serverless backend ([Firebase Docs](https://firebase.google.com/docs/functions))
-- Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGDEV_Using_the_Python_API))
+- Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/)
 - Google Sheets API via `gspread` ([Google Sheets API Docs](https://developers.google.com/sheets/api))
 - Google Apps Script frontend ([Apps Script Docs](https://developers.google.com/apps-script))
 
@@ -86,7 +86,7 @@ google-shotgrid-sheet-send-main/
 ## 📚 Further Reading
 
 - **ShotGrid Action Menu Items**:
-  [ShotGrid Developer Docs – Action Menu Items](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGDEV_Using_Action_Menu_Items)
+  [ShotGrid Developer Docs – Action Menu Items](https://help.autodesk.com/view/SGDEV/ENU/?guid=SGD_ami_action_menu_items_create_html)
 
 - **Firebase Cloud Functions (Python)**:
   [Firebase Functions (2nd Gen) Docs](https://firebase.google.com/docs/functions/get-started)
