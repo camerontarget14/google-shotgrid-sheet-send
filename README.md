@@ -34,7 +34,7 @@ google-shotgrid-sheet-send-main/
 ## 🔧 Technologies Used
 
 - Firebase Cloud Functions for serverless backend ([Firebase Docs](https://firebase.google.com/docs/functions))
-- Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/)
+- Shotgun API (`shotgun_api3`) ([SG API Docs](https://help.autodesk.com/view/SGDEV/ENU/))
 - Google Sheets API via `gspread` ([Google Sheets API Docs](https://developers.google.com/sheets/api))
 - Google Apps Script frontend ([Apps Script Docs](https://developers.google.com/apps-script))
 
