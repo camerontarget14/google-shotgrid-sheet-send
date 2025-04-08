@@ -59,6 +59,8 @@ google-shotgrid-sheet-send-main/
     SG_URL=https://yourstudio.shotgrid.autodesk.com
     SG_SCRIPT_NAME=your_script_name
     GOOGLE_CREDENTIALS_JSON=path/to/your/google/creds.json
+    TEMPLATE_SHEET_URL = https://docs.google.com/spreadsheets/d/1EuUClxflw5OkV14R69lNA9l0TMrBprKEVkqI51GGc44/edit?gid=1710006140#gid=1710006140
+    --- THE TEMPLATE SHEET URL is added by default but can be changed in main.py! (make sure to give your service account access!)
     ```
 
 3. **Deploy to Firebase**:
