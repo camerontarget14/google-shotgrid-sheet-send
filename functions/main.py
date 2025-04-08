@@ -156,7 +156,7 @@ def sync_playlist_to_google_sheets(request: Request):
 
     logging.info(f"Processing playlist_id: {playlist_id}, project_name: {project_name}")
 
-    template_sheet_id = "https://docs.google.com/spreadsheets/d/1EuUClxflw5OkV14R69lNA9l0TMrBprKEVkqI51GGc44/edit?gid=1710006140#gid=1710006140"  # Hardcoded Sheet Template ID
+    template_sheet_id = "https://docs.google.com/spreadsheets/d/1MjhyLz6LmmsFQBFMFQj37srRK95ksbl91wiz3a0hNTY/edit?gid=426049621#gid=426049621"  # Hardcoded Sheet Template ID
 
     # -------------------
     #  Connect to ShotGrid
